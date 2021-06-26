@@ -20,7 +20,7 @@ public class logintest {
 		//driver.findElement(By.cssSelector("#user-name")).sendKeys("standard_user"); // by css selector
 		driver.findElement(By.tagName("input")).sendKeys("standard_user"); // by tag name
 
-		driver.findElement(By.id("password")).sendKeys("secret_sauce");
+		driver.findElement(By.id("password")).sendKeys("******");
 		driver.findElement(By.xpath("/html/body/div/div/div[2]/div[1]/div[1]/div/form/input")).click();
 		// class name,partial link(anchor tag// 
 		driver.close();
