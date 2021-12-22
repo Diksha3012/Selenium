@@ -21,7 +21,7 @@ public class explicitwait {
 		Actions action = new Actions(driver);
 		action.moveToElement(element).perform();
 		WebDriverWait explicitwait = new WebDriverWait(driver,10);
-		explicitwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\\\"mainContent\\\"]/div[1]/ul/li[3]/div[2]/div[1]/nav[2]/ul/li[7]/a"))).click();
+		explicitwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='mainContent']/div[1]/ul/li[3]/div[2]/div[1]/nav[2]/ul/li[7]/a"))).click();
 	}
 
 }
